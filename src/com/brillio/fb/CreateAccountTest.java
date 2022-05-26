@@ -31,8 +31,8 @@ public class CreateAccountTest {
 		driver.findElement(By.xpath("//input[@value='-1']")).click();
 		
 		//click on signup
+		driver.findElement(By.name("websubmit")).click();
 		
-		//will start at 10:45 AM IST
 	}
 
 }

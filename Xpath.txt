@@ -1,0 +1,17 @@
+XPath - 
+Absolute XPath - /html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[3]/input
+
+Relative XPath - 
+
+//tagname[@attribute='']
+//tagname[text()='']
+
+Grouping of Xpath - starts at 1
+(//button[@type='submit'])[3]
+
+Validate in chrome - Inspect and ctrl+f
+Example
+//input[@value='-1']
+//button[@type='submit']
+//button[text()='Sign Up']
+//button[@name='websubmit']
