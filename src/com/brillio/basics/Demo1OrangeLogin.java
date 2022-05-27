@@ -31,10 +31,10 @@ public class Demo1OrangeLogin {
 //		WebElement ele= driver.findElement(loc);
 //		ele.sendKeys("Admin");
 		
-//		WebElement ele= driver.findElement(By.id("txtUsername"));
-//		ele.sendKeys("Admin");
+		WebElement ele= driver.findElement(By.id("txtUsername"));
+		ele.sendKeys("Admin");
 		
-		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		//driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
 		
