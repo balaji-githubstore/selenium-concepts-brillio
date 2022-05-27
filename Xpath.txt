@@ -14,8 +14,17 @@ Contains
 Grouping of Xpath - starts at 1
 (//button[@type='submit'])[3]
 
+And-Or
+
+following-preceding
 
 
+Parent - Child 
+parent - 
+//img[@alt='Go']/..
+
+
+ancestor-descendant
 
 Validate in chrome - Inspect and ctrl+f
 Example
