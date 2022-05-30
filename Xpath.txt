@@ -17,14 +17,21 @@ Grouping of Xpath - starts at 1
 And-Or
 
 following-preceding
+following - 
+//tagname[@attribute='']/following::tagname
+//tagname[@attribute='']/following::tagname[@att='']
 
+//*[contains(text(),'GSTIN Cer')]/following::input
+//*[contains(text(),'GSTIN Cer')]/following::input[@type='file']
+//label[contains(text(),'Telephone Nu')]/following::input
 
 Parent - Child 
 parent - 
 //img[@alt='Go']/..
 
-
 ancestor-descendant
+
+
 
 Validate in chrome - Inspect and ctrl+f
 Example
@@ -35,3 +42,26 @@ Example
 
 //input[contains(@id,'UserFir')]
 //span[contains(text(),'install')]
+
+//b[contains(text(),'phpMy')]
+
+//*[contains(text(),'phpMy')]
+
+//input[@type='file']
+
+
+CSS Selector 
+
+#id 
+.classname
+tagname[attribute='']
+[attribute='']
+
+
+Example:
+#bill-date-long
+input[name='DOB']
+[name='DOB']
+
+[name='DOB']
+
