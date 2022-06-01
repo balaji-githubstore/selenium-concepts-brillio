@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 public class CreateAccountTest {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","D:\\Software\\chromedriver.exe");
 		
+		System.setProperty("webdriver.chrome.driver","D:\\Software\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		driver.manage().window().maximize();
